@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.glass {
+  background-image: url('../build/img/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 120vh;
+  margin-top: -40px;
+}
+
+.glass .header {
+  background-color: rgb(22, 22, 21);
+  opacity: 0.7;
+  height: 120px;
+}
+
+.glass h3 {
+  padding-top: 50px;
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  text-align: end;
+  justify-content: center;
+
+}
+
+
+
+.model {
+
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 300px;
+  margin-top: 70px;
+  border: 2px solid #000;
+  position: relative;
+  display: inline-block;
+}
+
+.model2 {
+  margin-left: 190px;
+}
+
+.glassEx {
+  width: 133px;
+  height: 60px;
+  position: absolute;
+  top: 243px;
+  left: 381px;
+  opacity: 0.5;
+}
+
+.content {
+  top: 409px;
+  background-color: crimson;
+  opacity: 0.7;
+  width: 300px;
+  height: 141px;
+  left: 300px;
+  position: absolute;
+}
+
+.col-6 h3 {
+  color: rgb(196, 174, 174);
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: -20px;
+}
+
+.col-6 p {
+  color: rgb(243, 243, 190);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.glassHienthi {
+  width: 133px;
+  height: 60px;
+  position: absolute;
+  top: 243px;
+  right: 303px;
+  opacity: 0.5;
+}
+
+.hienThi h3 {
+  color: rgb(55, 52, 52);
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: -20px;
+  position: absolute;
+  margin-bottom: 30px;
+  top: 0;
+  right: -548px;
+}
+
+.hienThi p {
+  color: rgb(34, 34, 30);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  top: 68px;
+  right: -608px;
+}
+.round{
+  padding: 15px 282px;
+  color:white;
+  margin-top: 50px;
+}
+button{
+  margin: 5px 8px;
+display: flex;
+
+}
